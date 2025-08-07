@@ -11,10 +11,15 @@
     1. 에디터실행, 작업폴더 위치에서 터미널 실행, 
         git init
     을 실행하면 git이 감시를 시작한다. (+repository를 생성)
+    git init : 현재 폴더를 git이 관리하는 repository로 초기화한다. .git 이라는 숨김폴더가 생성되고 여기에 버전정보, 커밋 기록등이 저장된다.
     2. 작업 후 저장하기 위해서는 
         git add 파일명
         git commit -m '메모'
     를 터미널에 순서대로 실행시킨다. 기록 완료
     이후 코드를 수정하면 다시 add와 commit을 연달아 실행시킨다.
-    ? add와 commit는 뭐가 다른거지?
-
+    git add 파일명 : 선택한 파일의 변경내용을 스냅샷에 담는 행위, staging한다라고도 함
+    git add a.txt b.txt : 두 파일을 동시에 스테이징이 가능하다.
+    git add . : 모든 파일을 스테이징한다.
+    git commit -m '메모': 최종저장하는 행위 (작업단위, 추가나 수정 했을 때 한 번씩 해주는 게 좋음)
+    git status : 현재 스테이징 상황 볼수 있음 
+    git log --all --oneline : commit 내용을 보여준다
