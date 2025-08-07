@@ -23,3 +23,5 @@
     git commit -m '메모': 최종저장하는 행위 (작업단위, 추가나 수정 했을 때 한 번씩 해주는 게 좋음)
     git status : 현재 스테이징 상황 볼수 있음 
     git log --all --oneline : commit 내용을 보여준다
+
+[3]
