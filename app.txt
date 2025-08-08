@@ -29,4 +29,11 @@
         git branch 새브렌치명
     2. 타 브렌치로 이동
         git switch 브렌치명 **기존의 브랜치는 'main'
-    
+    3. 브렌치 로그를 시각적으로 확인가능
+        git log --oneline --all --graph
+
+[4] merge 
+    1. branch를 합치는 과정
+        git merge 브랜치명 : 현재 브랜치와 다른 브랜치를 합친다.
+        main branch와 second branch가 각기 다른 파일들을 수정하고 merge 를 실행하면 잘 이뤄지나...?
+
