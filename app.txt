@@ -34,6 +34,7 @@
 
 [4] merge 
     1. branch를 합치는 과정
-        git merge 브랜치명 : 현재 브랜치와 다른 브랜치를 합친다.
+        git merge 브랜치명 : 현재 브랜치와 다른 브랜치를 합친다. 각 브렌치들이 commit이 완성된 상태에서 실행해야함
         main branch와 second branch가 각기 다른 파일들을 수정하고 merge 를 실행하면 잘 이뤄지나...?
 
+[5] again
