@@ -27,3 +27,5 @@
 [3] 이건 다르게 작성해야하나? branch
     1. git branch 브렌치명 : 새로운 브렌치 생성(복사)
     2. git switch 브렌치명 : 브랜치 이동
+
+[4] 지금 이건 second branch임
