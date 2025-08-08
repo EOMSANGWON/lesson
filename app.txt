@@ -24,4 +24,6 @@
     git status : 현재 스테이징 상황 볼수 있음 
     git log --all --oneline : commit 내용을 보여준다
 
-[3]
+[3] 이건 다르게 작성해야하나? branch
+    1. git branch 브렌치명 : 새로운 브렌치 생성(복사)
+    2. git switch 브렌치명 : 브랜치 이동
