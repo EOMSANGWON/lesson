@@ -24,4 +24,9 @@
     git status : 현재 스테이징 상황 볼수 있음 
     git log --all --oneline : commit 내용을 보여준다
 
-[3]
+[3] branch  
+    1. 복사본을 만듦 
+        git branch 새브렌치명
+    2. 타 브렌치로 이동
+        git switch 브렌치명 **기존의 브랜치는 'main'
+    
