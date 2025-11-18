@@ -5,7 +5,7 @@
     2. git을 실행할 폴더 생성, 폴더 우클릭 후 터미널, 
         git config --global user.email "um4own@gmail.com"
         git config --global user.name "엄상원"
-    후 빠져나옴
+    후 빠져나옴 : 이 과정은 git 설치 후 1회만 하면 된다. 폴더마다 할 필요 x
 
 [2] git 실행
     1. 에디터실행, 작업폴더 위치에서 터미널 실행, 
