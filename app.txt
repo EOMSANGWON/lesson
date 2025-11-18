@@ -24,6 +24,10 @@
     git status : 현재 스테이징 상황 볼수 있음 
     git log --all --oneline : commit 내용을 보여준다
 
+[2-1] 보안키 관리법
+    보안키나 패스워드를 저장하는 .env파일은 외부노출되면 안되기 때문에 절대로 commit에 포함하면 안된다.
+    .gitignore 파일을 만들어 그 안에 .env 를 적으면 커밋대상에서 자동으로 제외시킬 수 있음
+
 [3] branch  
     1. 복사본을 만듦 
         git branch 새브렌치명
